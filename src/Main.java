@@ -14,5 +14,7 @@ public class Main {
 
         book1.setPublishedYear(1987);
         System.out.println("Обновленная дата публикации " + book1.getPublishedYear());
+
+
     }
 }
