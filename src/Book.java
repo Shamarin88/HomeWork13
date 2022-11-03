@@ -27,7 +27,7 @@ public class Book {
     // а должен делегировать (вызывать) его версию метода.
     @Override
     public String toString() {
-        return author.getAuthorFullName();
+        return author.toString();
     }
     @Override
     public int hashCode() {

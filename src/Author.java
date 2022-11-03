@@ -16,7 +16,7 @@ public class Author {
     // а должен делегировать (вызывать) его версию метода.
     @Override
     public String toString() {
-        return this.getAuthorFullName();
+        return authorFirstName + " " + authorLastName;
     }
     @Override
     public boolean equals(Object o) {
